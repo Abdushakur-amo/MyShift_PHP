@@ -1,0 +1,94 @@
+* {margin: 0; padding: 0 }
+body {color:#666;font: 12px/18px Arial, sans-serif; width: 100%; background: url(/resource/img/bg.jpg) top center no-repeat}
+a {color: #666; font-weight: bold; text-decoration:none}
+input[type=text], input[type=password], input[type=email] {height: 15px; width: 200px; padding: 5px; margin-bottom: 5px}
+input[type=submit], input[type=reset], .button {color: #666; background: #D44B38; padding: 8px; border: 1px solid #fbdb65; font-weight: normal}
+input[type=submit]:hover, input[type=reset]:hover, .button:hover  { background: #E85F4C}
+select {height:30px; margin-bottom: 5px;}
+
+.wrapper {width: 1000px; margin: 0 auto}
+.header {width: 1000px; height: 150px; background: url(/resource/img/logo.png)}
+.content {width: 1000px; min-height: 550px; background: hsla(0, 0%, 100%, 1)}
+
+.MenuHead {width: 1000px; height: 60px; background: #35886E}
+.Menu {float:left; display: inline-block;  height: 20px; background: #35886E; padding: 20px; color: #fff; font-size: 14px;text-transform: uppercase;}
+.SwchItemCurt, .SwchItem:hover , .Menu:hover, .Cat:hover {opacity: 0.5; cursor: pointer}
+
+.CatHead {width: 1000px; height: 40px; background: #fbdb65}
+.Cat {float:left; display: inline-block;  height: 10px; background: #fbdb65; padding: 10px; color: #fff; font-size: 10px}
+
+
+
+
+.Page {padding: 20px}
+
+
+.footer {height: 10px; background: #35886E; padding: 20px; color: #fff}
+.MessageBlock {border: 1px solid #35886e;background: #070707;padding: 10px;color: #fff; position:relative;}
+.MessageBlock a {    padding: 10px;display: block;position: absolute;background: #d50000;border-radius: 50px;color: #fff;font-size: 20px;right: -20px;top: -20px;}
+
+
+.capinp {max-width: 80px}
+.capimg {width: 110px; height: 30px; float: right; border: 1px solid #fbdb65}
+.capdiv {width: 215px; height: 30px}
+
+.Block {border: 1px solid #e5e5e5; background-color: #f6f6f6; padding: 10px 10px; width: 815px; height: 135px; display: table; line-height: 25px}
+.ProfileB {float: left; width: 102px; margin-top: -37px}
+.ProfileEdit{margin-top: -25px}
+
+.ChatBox {height: 300px; overflow: auto; border: 1px solid #ddddddd}
+.ChatBlock {border: 1px solid #dddddd; background: #f2f2f2; padding: 10px; color: #000000; margin: 10px}
+.ChatBlock span {color: #828282; font-size: 10px; display: block}
+.ChatMessage {width: 300px; height: 40px; resize: none; padding: 5px}
+
+.PageSelector{margin: 10px}
+.SwchItem, .SwchItemCur {padding: 2px 15px; background: #D44B38}
+.SwchItemCur{background: #35886E}
+
+
+
+.newsChat{width: 100%}
+.newsChat li{float: left; margin-right: 10px; list-style: none; }
+.newsChat:active{content: " | ";}
+ul.newsChat li a {color: #bc1339;}
+a{
+	color: #2f01d3;
+}
+.Ablock1, .Ablock2 {width :450px; height: 300px; margin-bottom: 20px; border: 1px solid #A9A9A9}
+.Ablock1 {float: left}
+.Ablock2 {float: right}
+.table_forum {
+    font-size: 18px;
+    background: white;
+    margin: 50px auto;
+    width: 90%;
+    height: 100%;
+}
+.table_forum tbody > tr {
+    color: #070707e0;
+    text-shadow: 0px 0px 1px #00000061;
+    background: #f1eebd;
+}tr {}
+
+.table_forum tbody tr th {
+    padding: 15px;
+    background: #fbdb65;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.table_forum tbody tr td {
+    padding: 10px;
+    text-align: center;
+    color: #484848;
+}
+
+.table_forum tbody tr td a {
+    color: #484848;
+    display: block;
+}
+
+.table_forum td a:hover {
+    color: #fbdb65;
+}
